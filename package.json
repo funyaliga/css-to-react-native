@@ -1,5 +1,5 @@
 {
-  "name": "css-to-react-native",
+  "name": "@funya._./css-to-react-native",
   "version": "3.0.0",
   "description": "Convert CSS text to a React Native stylesheet object",
   "main": "index.js",
@@ -9,6 +9,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint src",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "precommit": "lint-staged",
     "lint-staged": "lint-staged"
   },
